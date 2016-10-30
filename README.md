@@ -11,12 +11,12 @@
     <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square" alt="Standard"/>
   </a>
   <!-- NPM version -->
-  <a href="https://npmjs.org/package/require-load">
-    <img src="https://img.shields.io/npm/v/require-load.svg?style=flat-square" alt="NPM version"/>
+  <a href="https://npmjs.org/package/require-ensure">
+    <img src="https://img.shields.io/npm/v/require-ensure.svg?style=flat-square" alt="NPM version"/>
   </a>
   <!-- Downloads -->
-  <a href="https://npmjs.org/package/require-load">
-    <img src="https://img.shields.io/npm/dm/require-load.svg?style=flat-square" alt="Downloads"/>
+  <a href="https://npmjs.org/package/require-ensure">
+    <img src="https://img.shields.io/npm/dm/require-ensure.svg?style=flat-square" alt="Downloads"/>
   </a>
 </h1>
 
