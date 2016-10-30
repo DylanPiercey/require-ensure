@@ -1,0 +1,49 @@
+{
+  "name": "require-ensure",
+  "description": "Proper require.ensure polyfill for node that is actually async.",
+  "version": "1.0.0",
+  "author": "Dylan Piercey <pierceydylan@gmail.com>",
+  "bugs": "https://github.com/DylanPiercey/require-ensure/issues",
+  "dependencies": {
+    "callsite": "^1.0.0",
+    "require-load": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "rill": "^2.4.0",
+    "snazzy": "^5.0.0",
+    "standard": "^8.5.0"
+  },
+  "homepage": "https://github.com/DylanPiercey/require-ensure",
+  "keywords": [
+    "async",
+    "load",
+    "require",
+    "require-async",
+    "require-ensure",
+    "polyfill",
+    "isomorphic"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "browser": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DylanPiercey/require-ensure"
+  },
+  "scripts": {
+    "lint": "standard --verbose | snazzy",
+    "mocha": "mocha ./test/*.test.js",
+    "test": "npm run lint && npm run mocha"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach"
+    ]
+  }
+}
