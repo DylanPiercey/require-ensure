@@ -1,7 +1,7 @@
 {
   "name": "require-ensure",
   "description": "Proper require.ensure polyfill for node that is actually async.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Dylan Piercey <pierceydylan@gmail.com>",
   "bugs": "https://github.com/DylanPiercey/require-ensure/issues",
   "dependencies": {
